@@ -1,12 +1,12 @@
 # Docker Backblaze B2 command line tool image
 
-[![andreausu/backblaze-b2](http://dockeri.co/image/andreausu/backblaze-b2)](https://registry.hub.docker.com/u/andreausu/backblaze-b2/)
+[![m4r1ku/backblaze-b2](http://dockeri.co/image/m4r1ku/backblaze-b2)](https://registry.hub.docker.com/u/m4r1ku/backblaze-b2/)
 
 Docker image for the official Backblaze B2 command line tool ([Backblaze/B2_Command_Line_Tool](https://github.com/Backblaze/B2_Command_Line_Tool))
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`0.5.6`, `0.5`, `0`, `latest` (*Dockerfile*)](https://github.com/andreausu/docker-backblaze-b2/blob/master/Dockerfile)
+-	[`1.3.8`, `latest` (*Dockerfile*)](https://github.com/m4r1ku/docker-backblaze-b2/blob/master/Dockerfile)
 
 ## How to use it
 
@@ -40,3 +40,7 @@ docker run --rm -v $PWD:/root -e B2_ACCOUNT_ID=your-account-id -e B2_APPLICATION
 ## Build and update process
 
 This image is automatically built at every push of this repository and every time that the `python:2.7-slim` base image gets updated in order to ensure that bugfixes and security updates are immediately applied.
+
+
+## Credit
+This image was created because the original at [andreausu/backblaze-b2](https://hub.docker.com/r/andreausu/backblaze-b2) was out of date. Thanks for the work.
